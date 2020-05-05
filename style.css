@@ -1,0 +1,120 @@
+/*Ajout des polices*/
+@font-face {
+	font-family: 'Rubik Medium';
+	src: url('fonts/Rubik-Medium.eot');
+	src: local('☺'), url('fonts/Rubik-Medium.woff') format('woff'), url('fonts/Rubik-Medium.ttf') format('truetype'), url('fonts/Rubik-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Rubik Regular';
+	src: url('fonts/Rubik-Regular.eot');
+	src: local('☺'), url('fonts/Rubik-Regular.woff') format('woff'), url('fonts/Rubik-Regular.ttf') format('truetype'), url('fonts/Rubik-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*Couleur de texte*/
+.text-white{
+    color:#ffffff;
+}
+.text-bright{
+    color:#FFFEFE;
+}
+.text-dark{
+    color:#5E5E5E;
+}
+/*Style de caractères*/
+.standard_medium_white{
+    font-family: 'Rubik Medium';
+    color:#ffffff;
+}
+.standard_regular_white{
+    font-family: 'Rubik Regular';
+    color:#FFFFFF;
+}
+.standard_regular_bright{
+    font-family: 'Rubik Regular';
+    color:#FFFEFE;
+}
+.standard_regular_dark{
+    font-family: 'Rubik Regular';
+    color:#5E5E5E;
+}
+
+.font_size_1{
+    font-size: 1.25rem;
+}
+.font_size_2{
+    font-size: 1.125rem;
+}
+.font_size_3{
+    font-size: 0.9375rem;
+}
+
+.line-height_1{
+    line-height: 3.75rem;
+}
+.line-height_2{
+    line-height: 2.25rem;
+}
+.line-height_3{
+    line-height: 2rem;
+}
+.line-height_4{
+    line-height: 1.35rem;
+}
+p{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik Regular';
+}
+/*Background color*/
+.bg_color-blue{
+    background-color: #103268;
+}
+.bg_color-white{
+    background-color: #ffffff;
+}
+.bg_color-black{
+    background-color: rgba(0,0,0,0.1);
+}
+/*flex*/
+.d-flex{
+	display:flex;
+}
+.flex-bettween{
+	justify-content: space-between;
+}
+.flex-column{
+	flex-direction: column;
+}
+.flex-center{
+	justify-content: center;
+}
+.flex-start{
+    align-items: flex-start;
+}
+/*Largeur*/
+.w-list{
+	Width:10.645rem;
+    Box-sizing:border-box;
+}
+/*Mise en page*/
+.footer-about{
+    width:19.54375rem;
+    
+}
+.title_list_1{
+    margin-bottom: 1.95625rem;
+}
+.title_list_2{
+    margin-bottom: 2.01875rem;
+}

@@ -50,7 +50,13 @@
     font-family: 'Rubik Regular';
     color:#5E5E5E;
 }
-
+.standard-font{
+    text-decoration: none;
+    color:rgba(255,254,254,0.8);
+    font-family: 'Rubik Regular';
+    line-height: 2.25rem;
+    text-decoration: none;
+}
 .font_size_1{
     font-size: 1.25rem;
 }
@@ -73,6 +79,9 @@
 .line-height_4{
     line-height: 1.35rem;
 }
+.line-height_0{
+    line-height: 0;
+}
 p{
     margin: 0;
 }
@@ -81,13 +90,7 @@ ul{
     margin: 0;
     padding: 0;
 }
-.link-font{
-    text-decoration: none;
-    color:rgba(255,254,254,0.8);
-    font-family: 'Rubik Regular';
-    line-height: 2.25rem;
-    text-decoration: none;
-}
+
 
 /*flex*/
 .d-flex{
@@ -116,6 +119,9 @@ ul{
 .w-100{
     width:100%;
     box-sizing: border-box;
+}
+.w-1170{
+    width:60.9375%;
 }
 /*Mise en page*/
 body{
@@ -202,6 +208,12 @@ body{
     line-height:21.6px;
     color:#ffffff;
 }
-.bottom_footer_layout{
-
+.bottom_footer{
+    padding: 1.675rem 0 1.825rem 0;
+    line-height: 0;
+}
+.condition-links{
+    width:26.3125rem;
+    display:flex;
+    justify-content: space-between;
 }

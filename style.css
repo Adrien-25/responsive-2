@@ -13,12 +13,22 @@
 	font-weight: normal;
 	font-style: normal;
 }
+/*Background color*/
+.bg_color-blue{
+    background-color: #103268;
+}
+.bg_color-white{
+    background-color: #ffffff;
+}
+.bg_color-black{
+    background-color: rgba(0,0,0,0.1);
+}
 /*Couleur de texte*/
 .text-white{
     color:#ffffff;
 }
 .text-bright{
-    color:#FFFEFE;
+    color:rgba(255,254,254,0.8);
 }
 .text-dark{
     color:#5E5E5E;
@@ -34,7 +44,7 @@
 }
 .standard_regular_bright{
     font-family: 'Rubik Regular';
-    color:#FFFEFE;
+    color:rgba(255,254,254,0.8);
 }
 .standard_regular_dark{
     font-family: 'Rubik Regular';
@@ -71,21 +81,14 @@ ul{
     margin: 0;
     padding: 0;
 }
-a{
+.link-font{
     text-decoration: none;
-    color: white;
+    color:rgba(255,254,254,0.8);
     font-family: 'Rubik Regular';
+    line-height: 2.25rem;
+    text-decoration: none;
 }
-/*Background color*/
-.bg_color-blue{
-    background-color: #103268;
-}
-.bg_color-white{
-    background-color: #ffffff;
-}
-.bg_color-black{
-    background-color: rgba(0,0,0,0.1);
-}
+
 /*flex*/
 .d-flex{
 	display:flex;
@@ -99,6 +102,9 @@ a{
 .flex-center{
 	justify-content: center;
 }
+.flex-horizontal_center{
+    align-items: center;
+}
 .flex-start{
     align-items: flex-start;
 }
@@ -107,12 +113,33 @@ a{
 	Width:10.645rem;
     Box-sizing:border-box;
 }
+.w-100{
+    width:100%;
+    box-sizing: border-box;
+}
 /*Mise en page*/
+body{
+    margin: 0;
+}
 .top-footer{
-    padding: 7.25rem 23.4375rem 6.8rem 23.4375rem;
+    padding: 7.25rem 0 6.8rem 0;
 }
 .footer-about{
     width:19.54375rem;
+    margin-right:4.725rem;
+}
+.site_footer_logo{
+    display: flex;
+    height: 26px;
+}
+.about-text{
+    padding:1.88125rem 0 2.30625rem 0;
+}
+.list-link_1{
+    margin-right: 3.16875rem;
+}
+.list-link_2{
+    margin-right: 5.625rem;
 }
 .title_list_1{
     margin-bottom: 1.95625rem;
@@ -132,6 +159,10 @@ a{
     height:45px;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 3px;
+}
+.social-item a{
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,4 +178,30 @@ a{
 }
 .pics-hover{
     display: none;
+}
+.newsletter{
+    margin:2.19375rem 0 1rem 0;
+    height:56px;
+    width:300px;
+    border-radius:28px;
+    text-indent:25px;
+    border: none;
+}
+.container{
+    direction: rtl;
+}
+.newsletter-button{
+    background-color: #FF8400;
+    border-radius: 28px;
+    box-shadow:0px 7px 15px rgba(255,97,0,0.15);
+    height:56px;
+    width:140px;
+    padding: 0;
+    border: none;
+    font-family: 'Rubik Medium';
+    line-height:21.6px;
+    color:#ffffff;
+}
+.bottom_footer_layout{
+
 }
